@@ -15,39 +15,39 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 cl =LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='Eq8oqZK3JTqfztqTWny7.MRMd87JLMY8NA0SCe7JEXW.vbl7Kr2tjQ1LqphHyzY3ogPStiHJgqTFB/R2kwF+ms4')
+cl.login(token='เชล')
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token='EqsN2sMuE9xXV0u5H5f0.AEoJSIkRcO0GuUmXC7Fcia.epr61UiYNLd1cLKGafQ3e0Bq1ku/5NzkG9AUEromhyU')
+ki.login(token='โจ1')
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
 #ki2.login(qr=True)
-ki2.login(token='Eq8GV919FJNUMrNPSWc7.AT7NDdbl0H2GLxuGz4QxXW.55ZTTqTEznurl4KqO/emtDspWcZqZyP/dYp3Y0wLKWA')
+ki2.login(token='โจ2')
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
 #ki3.login(qr=True)
-ki3.login(token='EqMMdNlgdwwDpIVku71e.zmCv8kW3miEalfHutIIt+G.q/d7mNa+6YTsGoXoR4pa5NUPhx3xqvX9aQRrYTJ8n64')
+ki3.login(token='โจ3')
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
 #ki4.login(qr=True)
-ki4.login(token='EqIfsqgCa5qaHAWgeBt5.xYAmvk1yA8gaabeYgdSeXq.movkYMysyGsi8kvUpjL1XxnO0dBdP0NGCRge2OK6o/8')
+ki4.login(token='โจ4')
 ki4.loginResult()
 
 ki5 = LINETCR.LINE()
 #ki5.login(qr=True)
-ki5.login(token='EqgBIrRvAcrk6SKDsKR9.lX4pa6L4onjySYNG0c47Qq.rI/Eeh1goMiTdeMTGpjSBYUq/cPLRSJdc7TyG2EqJcM')
+ki5.login(token='โจ5')
 ki5.loginResult()
 
 ki6 = LINETCR.LINE()
-ki6.login(token='EqM1A7pLEc9zO7tdCe2a.DRBreAS+m29VD2VUknWEQG.hhwiDoEdZxB+RjmjF4hqMUQ5uTmR9X1m4bvRSltaEew')
+ki6.login(token='โจ6')
 ki6.loginResult()
 
 ki7 = LINETCR.LINE()
-ki7.login(token='EqzCO7DUMJwcbyl1tvRc.YLgVP2FFH7O3buLlL8m1xa.+x7IXBxseVQC6ew+JocnjNEGWKOOutEORQgriw4KYtk')
+ki7.login(token='โจ7')
 ki7.loginResult()
 cl
 
@@ -60,13 +60,13 @@ cl
 #cl.login(token='EoChmq5TXM73ZRg9P8ec.YLgVP2FFH7O3buLlL8m1xa.53z2MiS/devknmPfbJjsBhLEqtWnv6cUujv6wklIJsc')
 #cl.loginResult()
 
-print u"่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т"
+print u"่❂>ͣ▪✍ಬี่ໂম"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage =""" 
    ╔════☬════♪•●☬●•♪════☬═══╗
-                           ่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ
+                           ่❂>ͣ▪✍ಬี่ໂম
    ╚════☬════♪•●☬●•♪════☬═══╝
          
 ||=====☬คำสั่งทั่วไป☬=====||
@@ -160,13 +160,13 @@ helpMessage ="""
      ─██──██────██──██
      ▄██▄───██──██──██████
 ╔════☬════♪•●☬●•♪════☬═══╗
-        Http://line.me/ti/p/~getk3333
+        http://line.me/ti/p/~tinnakorn941
 ╚════☬════♪•●☬●•♪════☬═══╝
         
 ||=========================||
 """
 
-help2Message =""" ||==่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ==||
+help2Message =""" ||==่❂>ͣ▪✍ಬี่ໂম==||
 
 ☬คท  - ส่งคท.ตัวเอง(Me)
 ☬ไอดี  - ส่งMidตัวเอง
@@ -201,7 +201,7 @@ help2Message =""" ||==่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ==||
 ☬Backup  - คิกเกอร์1กลับร่างเดิม
 ☬Spam on/off  - ส่งข้อความสแปม
 ||==========||
-✯★Creator By  👉่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ👈
+✯★Creator By  👉่❂>ͣ▪✍ಬี่ໂম👈
 """
 
 helo=""
@@ -217,8 +217,8 @@ ki6mid = ki6.getProfile().mid
 ki7mid = ki7.getProfile().mid
 bot1 = cl.getProfile().mid
 Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid]
-admsa = "u9ab983f3b8e59b2f276b4b1c13b8dec7"
-admin = "u9ab983f3b8e59b2f276b4b1c13b8dec7"
+admsa = "u15d6baf1b56b371f98fe441f0abf3ec5"
+admin = "u15d6baf1b56b371f98fe441f0abf3ec5"
 
 wait = {
     'contact':True,
@@ -232,15 +232,15 @@ wait = {
                [ AOTO  LIKE  ]
                  [ SELF BOT ]
 
-     [By.☬่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ☬]
-   http://line.me/ti/p/~getk9999
+     [By.☬่❂>ͣ▪✍ಬี่ໂম☬]
+   http://line.me/ti/p/~tinnakorn941
 
    ─██─███─███─██─██─██▄█
    ─██─▀██▄██▀─▀█▄█▀─██▀█
    ▄██▄▄█▀▀▀─────▀──▄██▄▄█
 
-         [By.☬่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ☬]
-   http://line.me/ti/p/~getk9999""",
+         [By.☬่❂>ͣ▪✍ಬี่ໂম☬]
+   http://line.me/ti/p/~tinnakorn941""",
     "lang":"JP",
     "comment":"Auto Like By ",
     "welmsg":"welcome to group",
@@ -249,7 +249,7 @@ wait = {
                [ AOTO  LIKE  ]
                  [ SELF BOT ]
 
-     [By.☬่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ☬]
+     [By.☬่❂>ͣ▪✍ಬี่ໂম☬]
    http://line.me/ti/p/~getk9999
 
    ▀██▀────██─██──██████
@@ -258,7 +258,7 @@ wait = {
    ─██──██────██──██
    ▄██▄───██──██──██████
          [By.☬่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ☬]
-   http://line.me/ti/p/~getk9999""",
+   http://line.me/ti/p/~tinnakorn941""",
     "comment2":"Bot Auto Like ©By : Nadya\nContact Me : 👉 line.me/ti/p/~getk9999",
     "comment3":"Bot Auto Like ©By : Nadya\nContact Me : 👉 line.me/ti/p/~getk9999.",    
     "comment4":"Bot Auto Like ©By : Nadya\nContact Me : 👉 line.me/ti/p/~getk9999.",    
@@ -378,7 +378,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "ub8e146e024acdc277a3ba6a7d7a30ca9":
+                if msg.from_ == "u15d6baf1b56b371f98fe441f0abf3ec5":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
