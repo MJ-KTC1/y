@@ -15,7 +15,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 cl =LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='EqcoOsfMP64dMUNJ37d3.BBw3pzbW1+soEofidir4aW.x4tS5Gn7Zgvu6TAA0EBwNctkecyN+k2XYmDaaQdDb2Y')
+cl.login(token='โจ')
 cl.loginResult()
 
 #ki = LINETCR.LINE()
@@ -152,7 +152,7 @@ helpMessage ="""
      ─██──██────██──██
      ▄██▄───██──██──██████
 ╔════☬════♪•●☬●•♪════☬═══╗
-        Http://line.me/ti/p/~getk3333
+        http://line.me/ti/p/~tinnakorn941
 ╚════☬════♪•●☬●•♪════☬═══╝
         
 ||=========================||
@@ -207,8 +207,8 @@ mid = cl.getProfile().mid
 #ki5mid = ki5.getProfile().mid
 bot1 = cl.getProfile().mid
 Bots = [mid]#,kimid,ki2mid,ki3mid,ki4mid,ki5mid]
-admsa = "u6db5b73d9070d7f48e78e1480c847803"
-admin = "u6db5b73d9070d7f48e78e1480c847803"
+admsa = "mid"
+admin = "mid"
 
 wait = {
     'contact':True,
@@ -223,14 +223,14 @@ wait = {
                  [ SELF BOT ]
 
      [By.☬่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ☬]
-   http://line.me/ti/p/~getk9999
+   http://line.me/ti/p/~tinnakorn941
 
    ─██─███─███─██─██─██▄█
    ─██─▀██▄██▀─▀█▄█▀─██▀█
    ▄██▄▄█▀▀▀─────▀──▄██▄▄█
 
          [By.☬่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ☬]
-   http://line.me/ti/p/~getk9999""",
+   http://line.me/ti/p/~tinnakorn941""",
     "lang":"JP",
     "comment":"Auto Like By ",
     "welmsg":"welcome to group",
@@ -240,7 +240,7 @@ wait = {
                  [ SELF BOT ]
 
      [By.☬่❂>ͣ▪т̶є̶α̶м̶в̶σ̶т̶ℓ☬]
-   http://line.me/ti/p/~getk9999
+   http://line.me/ti/p/~tinnakorn941
 
    ▀██▀────██─██──██████
    ─██──██────██──██
@@ -454,7 +454,7 @@ def bot(op):
             ginfo = cl.getGroup(op.param1)
             contact = cl.getContact(op.param2)
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-            cl.sendText(op.param1, " ยินดีต้อนรับ. เข้ามาแล้วก็อย่าลืมลงแชร์กันน่ะครับ @ " + cl.getContact(op.param2).displayName + " สู่กลุ่ม " + "👉" + str(ginfo.name) + "👈""\nหรือสนใจลงบอทป้องกัน , บอทแท็ก ติดต่อได้ที่Line ID : Kmzaaa\nhttp://line.me/ti/p/eOuAF1hhYx")
+            cl.sendText(op.param1, " ยินดีต้อนรับ. เข้ามาแล้วก็อย่าลืมลงแชร์กันน่ะครับ @ " + cl.getContact(op.param2).displayName + " สู่กลุ่ม " + "👉" + str(ginfo.name) + "👈""\nหรือสนใจลงบอทป้องกัน , บอทแท็ก ติดต่อได้ที่Line ID : Kmzaaa\nhttp://line.me/ti/p/~tinnakorn941")
             cl.sendImageWithURL(op.param1,image)
             print "ada orang masuk grup"
             if msg.contentType == 16:
@@ -1945,9 +1945,9 @@ def bot(op):
 #==================================================
             elif msg.text in ["ทีมงาน","ทีมทดลองบอท"]:
                 msg.contentType = 13
-                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[☢Ŧ€₳M≈ನန้ণএ≈฿❂Ŧ☢]\n[By.ทีมงานทีมทดลองบอท]")
-                cl.sendText(msg.to, "ผู้จัดการทีมงาน:kielovebot")
-                msg.contentMetadata = {'mid': 'uca51afa767df87ba3705494b97c3355c'}
+                cl.sendText(msg.to, "[SELFBOT Jo HACK BOT]\n\n[พี่โจ]\n[By.ทีมงานทีมเล่นบอท]")
+                cl.sendText(msg.to, "ผู้จัดการทีมงาน:Jobot")
+                msg.contentMetadata = {'mid': 'u15d6baf1b56b371f98fe441f0abf3ec5'}
                 cl.sendMessage(msg)
 #===================================================== 
             elif 'Chah' in msg.text:
